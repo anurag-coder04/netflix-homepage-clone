@@ -1,0 +1,171 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600');
+background-size:cover;
+background-position:center;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+}
+
+.logo{
+font-size:38px;
+font-weight:700;
+color:#e50914;
+}
+
+.sign-btn{
+background:#e50914;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.hero-content{
+text-align:center;
+margin-top:150px;
+padding:0 20px;
+}
+
+.hero-content h1{
+font-size:60px;
+max-width:800px;
+margin:auto;
+}
+
+.hero-content h3{
+margin:20px 0;
+font-weight:400;
+}
+
+.email-form{
+margin-top:25px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.email-form input{
+padding:15px;
+width:350px;
+border:none;
+outline:none;
+}
+
+.email-form button{
+padding:15px 25px;
+background:#e50914;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.feature{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:80px 10%;
+border-top:8px solid #222;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.feature img{
+width:450px;
+border-radius:10px;
+}
+
+.text{
+max-width:500px;
+}
+
+.text h2{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.faq{
+padding:70px 12%;
+text-align:center;
+border-top:8px solid #222;
+}
+
+.faq h2{
+font-size:45px;
+margin-bottom:30px;
+}
+
+.accordion{
+width:100%;
+background:#303030;
+color:white;
+padding:20px;
+font-size:20px;
+border:none;
+text-align:left;
+cursor:pointer;
+margin-top:10px;
+}
+
+.panel{
+background:#303030;
+max-height:0;
+overflow:hidden;
+transition:max-height 0.3s ease;
+}
+
+.panel p{
+padding:20px;
+}
+
+footer{
+border-top:8px solid #222;
+padding:30px;
+text-align:center;
+color:#aaa;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:35px;
+}
+
+.text h2{
+font-size:30px;
+}
+
+.feature img{
+width:100%;
+}
+
+.email-form input{
+width:100%;
+}
+
+.email-form button{
+width:100%;
+}
+
+}
